@@ -173,12 +173,22 @@ function renderRealisations(realisations) {
 
 function renderTemoignages(temoignages) {
     const grid = document.getElementById('temoignages-grid');
-    grid.innerHTML = temoignages.map(tem => `
+    grid.innerHTML = temoignages.map(tem => {
+        const parts = tem.auteur.split(' — ');
+        const nom = parts[0] || '';
+        const projet = parts[1] || '';
+        const lieu = parts[2] || '';
+        return `
         <div class="temoignage-card fade-in">
             <p class="temoignage-texte">« ${tem.texte} »</p>
-            <p class="temoignage-auteur">— ${tem.auteur}</p>
+            <div class="temoignage-footer">
+                <div class="temoignage-nom">${nom}</div>
+                <div class="temoignage-projet">${projet}</div>
+                <div class="temoignage-lieu">${lieu}</div>
+            </div>
         </div>
-    `).join('');
+        `;
+    }).join('');
 
     observeNewElements();
 }
