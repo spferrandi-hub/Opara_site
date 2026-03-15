@@ -42,7 +42,7 @@ const EMBEDDED_DATA = {
   "realisations": [
     {"titre": "Rénovation complète appartement", "lieu": "Ajaccio centre", "type": "Rénovation intérieure — Séjour & aménagement", "image": "assets/Projet-1.jpg", "client": "M. & Mme Ferrandi"},
     {"titre": "Réaménagement cuisine & pièce de vie", "lieu": "Ajaccio — Les Jardins de l'Empereur", "type": "Rénovation cuisine — Agencement sur mesure", "image": "assets/Projet-2.jpg", "client": "M. Luciani"},
-    {"titre": "Réhabilitation appartement ancien", "lieu": "Ajaccio — Vieille ville", "type": "Rénovation structurelle — Verrière & voûtes", "image": "assets/Projet-3.png", "client": "Mme Santoni"}
+    {"titre": "Réhabilitation appartement ancien", "lieu": "Ajaccio — Vieille ville", "type": "Rénovation structurelle — Verrière & voûtes", "image": "assets/Projet-3.jpg", "client": "Mme Santoni"}
   ],
   "temoignages": [
     {"texte": "Grâce à Opara, les devis étaient enfin comparables. On a pu choisir nos artisans en toute confiance, et les économies réalisées ont largement couvert leurs honoraires.", "auteur": "J. Ferrandi — Rénovation appartement — Ajaccio"},
