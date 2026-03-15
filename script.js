@@ -40,9 +40,9 @@ const EMBEDDED_DATA = {
     {"projet": "Projet à 150 000 € de travaux", "honoraires": "10 500 € HT", "economies": "15 000 à 30 000 €", "detail": "Surcoût évité de 10 à 20 %"}
   ],
   "realisations": [
-    {"titre": "Rénovation complète appartement", "lieu": "Ajaccio centre", "type": "Rénovation intérieure — Séjour & aménagement", "image": "assets/projet-1.jpg", "client": "M. & Mme Ferrandi"},
-    {"titre": "Réaménagement cuisine & pièce de vie", "lieu": "Ajaccio — Les Jardins de l'Empereur", "type": "Rénovation cuisine — Agencement sur mesure", "image": "assets/projet-2.jpg", "client": "M. Luciani"},
-    {"titre": "Réhabilitation appartement ancien", "lieu": "Ajaccio — Vieille ville", "type": "Rénovation structurelle — Verrière & voûtes", "image": "assets/projet-3.jpg", "client": "Mme Santoni"}
+    {"titre": "Rénovation complète appartement", "lieu": "Ajaccio centre", "type": "Rénovation intérieure — Séjour & aménagement", "image": "assets/Projet-1.jpg", "client": "M. & Mme Ferrandi"},
+    {"titre": "Réaménagement cuisine & pièce de vie", "lieu": "Ajaccio — Les Jardins de l'Empereur", "type": "Rénovation cuisine — Agencement sur mesure", "image": "assets/Projet-2.jpg", "client": "M. Luciani"},
+    {"titre": "Réhabilitation appartement ancien", "lieu": "Ajaccio — Vieille ville", "type": "Rénovation structurelle — Verrière & voûtes", "image": "assets/Projet-3.png", "client": "Mme Santoni"}
   ],
   "temoignages": [
     {"texte": "Grâce à Opara, les devis étaient enfin comparables. On a pu choisir nos artisans en toute confiance, et les économies réalisées ont largement couvert leurs honoraires.", "auteur": "J. Ferrandi — Rénovation appartement — Ajaccio"},

@@ -137,21 +137,21 @@
       "titre": "Rénovation complète appartement",
       "lieu": "Ajaccio centre",
       "type": "Rénovation intérieure — Séjour & aménagement",
-      "image": "assets/projet-1.jpg",
+      "image": "assets/Projet-1.jpg",
       "client": "M. & Mme Ferrandi"
     },
     {
       "titre": "Réaménagement cuisine & pièce de vie",
       "lieu": "Ajaccio — Les Jardins de l'Empereur",
       "type": "Rénovation cuisine — Agencement sur mesure",
-      "image": "assets/projet-2.jpg",
+      "image": "assets/Projet-2.jpg",
       "client": "M. Luciani"
     },
     {
       "titre": "Réhabilitation appartement ancien",
       "lieu": "Ajaccio — Vieille ville",
       "type": "Rénovation structurelle — Verrière & voûtes",
-      "image": "assets/projet-3.jpg",
+      "image": "assets/Projet-3.png",
       "client": "Mme Santoni"
     }
   ],
