@@ -40,14 +40,14 @@ const EMBEDDED_DATA = {
     {"projet": "Projet à 150 000 € de travaux", "honoraires": "10 500 € HT", "economies": "15 000 à 30 000 €", "detail": "Surcoût évité de 10 à 20 %"}
   ],
   "realisations": [
-    {"titre": "Rénovation complète appartement", "lieu": "Ajaccio centre", "type": "Rénovation intérieure", "image": "assets/placeholder-projet-1.jpg"},
-    {"titre": "Réhabilitation maison ancienne", "lieu": "Périphérie d'Ajaccio", "type": "Rénovation structurelle", "image": "assets/placeholder-projet-2.jpg"},
-    {"titre": "Rénovation villa", "lieu": "Rive Sud", "type": "Rénovation complète", "image": "assets/placeholder-projet-3.jpg"}
+    {"titre": "Rénovation complète appartement", "lieu": "Ajaccio centre", "type": "Rénovation intérieure — Séjour & aménagement", "image": "assets/projet-1.jpg", "client": "M. & Mme Ferrandi"},
+    {"titre": "Réaménagement cuisine & pièce de vie", "lieu": "Ajaccio — Les Jardins de l'Empereur", "type": "Rénovation cuisine — Agencement sur mesure", "image": "assets/projet-2.jpg", "client": "M. Luciani"},
+    {"titre": "Réhabilitation appartement ancien", "lieu": "Ajaccio — Vieille ville", "type": "Rénovation structurelle — Verrière & voûtes", "image": "assets/projet-3.jpg", "client": "Mme Santoni"}
   ],
   "temoignages": [
-    {"texte": "Grâce à Opara, les devis étaient enfin comparables. On a pu choisir nos artisans en toute confiance, et les économies réalisées ont largement couvert leurs honoraires.", "auteur": "Client — Rénovation appartement — Ajaccio"},
-    {"texte": "On ne connaissait rien aux travaux. Le diagnostic nous a permis de comprendre où mettre notre argent en priorité. Un accompagnement indispensable.", "auteur": "Client — Diagnostic maison ancienne — Périphérie d'Ajaccio"},
-    {"texte": "Le suivi de chantier nous a évité plusieurs malfaçons. Sans leur œil technique, on aurait signé la réception sans voir les problèmes.", "auteur": "Client — Rénovation complète villa — Rive Sud"}
+    {"texte": "Grâce à Opara, les devis étaient enfin comparables. On a pu choisir nos artisans en toute confiance, et les économies réalisées ont largement couvert leurs honoraires.", "auteur": "J. Ferrandi — Rénovation appartement — Ajaccio"},
+    {"texte": "On ne connaissait rien aux travaux. Le diagnostic nous a permis de comprendre où mettre notre argent en priorité. Un accompagnement indispensable.", "auteur": "P. Luciani — Réaménagement cuisine — Ajaccio"},
+    {"texte": "Le suivi de chantier nous a évité plusieurs malfaçons. Sans leur œil technique, on aurait signé la réception sans voir les problèmes.", "auteur": "A. Santoni — Réhabilitation appartement — Ajaccio"}
   ],
   "modalites": {
     "portee": "Opara agit en tant que coordinateur technique et conseiller. L'entreprise ne fournit pas de prestations réglementées de maîtrise d'œuvre au sens de la loi MOP et ne se substitue ni à un architecte ni à un bureau d'études. Les plans et documents techniques que nous produisons sont des outils d'aide à la décision et à la consultation. Les responsabilités juridiques liées à l'exécution des travaux restent du ressort des entreprises contractantes.",
@@ -158,12 +158,12 @@ function renderRealisations(realisations) {
     grid.innerHTML = realisations.map(real => `
         <div class="realisation-card fade-in">
             <div class="realisation-image">
-                <span>Photo à venir</span>
+                <img src="${real.image}" alt="${real.titre}" onerror="this.parentElement.innerHTML='<span>Photo à venir</span>'">
             </div>
             <div class="realisation-info">
                 <div class="realisation-titre">${real.titre}</div>
                 <div class="realisation-type">${real.type}</div>
-                <div class="realisation-lieu">${real.lieu}</div>
+                <div class="realisation-lieu">${real.lieu}${real.client ? ' — ' + real.client : ''}</div>
             </div>
         </div>
     `).join('');

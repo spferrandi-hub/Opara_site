@@ -136,34 +136,37 @@
     {
       "titre": "Rénovation complète appartement",
       "lieu": "Ajaccio centre",
-      "type": "Rénovation intérieure",
-      "image": "assets/placeholder-projet-1.jpg"
+      "type": "Rénovation intérieure — Séjour & aménagement",
+      "image": "assets/projet-1.jpg",
+      "client": "M. & Mme Ferrandi"
     },
     {
-      "titre": "Réhabilitation maison ancienne",
-      "lieu": "Périphérie d'Ajaccio",
-      "type": "Rénovation structurelle",
-      "image": "assets/placeholder-projet-2.jpg"
+      "titre": "Réaménagement cuisine & pièce de vie",
+      "lieu": "Ajaccio — Les Jardins de l'Empereur",
+      "type": "Rénovation cuisine — Agencement sur mesure",
+      "image": "assets/projet-2.jpg",
+      "client": "M. Luciani"
     },
     {
-      "titre": "Rénovation villa",
-      "lieu": "Rive Sud",
-      "type": "Rénovation complète",
-      "image": "assets/placeholder-projet-3.jpg"
+      "titre": "Réhabilitation appartement ancien",
+      "lieu": "Ajaccio — Vieille ville",
+      "type": "Rénovation structurelle — Verrière & voûtes",
+      "image": "assets/projet-3.jpg",
+      "client": "Mme Santoni"
     }
   ],
   "temoignages": [
     {
       "texte": "Grâce à Opara, les devis étaient enfin comparables. On a pu choisir nos artisans en toute confiance, et les économies réalisées ont largement couvert leurs honoraires.",
-      "auteur": "Client — Rénovation appartement — Ajaccio"
+      "auteur": "J. Ferrandi — Rénovation appartement — Ajaccio"
     },
     {
       "texte": "On ne connaissait rien aux travaux. Le diagnostic nous a permis de comprendre où mettre notre argent en priorité. Un accompagnement indispensable.",
-      "auteur": "Client — Diagnostic maison ancienne — Périphérie d'Ajaccio"
+      "auteur": "P. Luciani — Réaménagement cuisine — Ajaccio"
     },
     {
       "texte": "Le suivi de chantier nous a évité plusieurs malfaçons. Sans leur œil technique, on aurait signé la réception sans voir les problèmes.",
-      "auteur": "Client — Rénovation complète villa — Rive Sud"
+      "auteur": "A. Santoni — Réhabilitation appartement — Ajaccio"
     }
   ],
   "modalites": {
