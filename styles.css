@@ -374,10 +374,22 @@ img {
 
 .comparatif-title {
     text-align: center;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: 700;
     margin-bottom: 32px;
     color: var(--dark);
+    background: var(--white);
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 8px;
+    border: 2px solid var(--orange);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .table-wrapper {
@@ -555,6 +567,11 @@ img {
     padding-top: 20px;
     border-top: 1px solid var(--gray-medium);
     margin-top: auto;
+}
+
+.pack-card.featured .pack-tarif {
+    font-size: 0.95rem;
+    white-space: nowrap;
 }
 
 .pack-card.featured .pack-tarif {
