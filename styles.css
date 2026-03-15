@@ -21,6 +21,11 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 body {
@@ -1071,13 +1076,66 @@ a.footer-contact-item:hover {
         font-size: 1.6rem;
     }
 
-    .comparatif-table {
-        font-size: 0.8rem;
+    .comparatif-title {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        max-width: 90%;
     }
 
+    .comparatif-table,
+    .comparatif-table thead,
+    .comparatif-table tbody,
+    .comparatif-table tr,
     .comparatif-table th,
     .comparatif-table td {
-        padding: 10px 12px;
+        display: block;
+    }
+
+    .comparatif-table thead {
+        display: none;
+    }
+
+    .comparatif-table tr {
+        background: var(--white);
+        margin-bottom: 16px;
+        border-radius: 8px;
+        padding: 16px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+        border: 1px solid var(--gray-medium);
+    }
+
+    .comparatif-table td {
+        padding: 6px 0;
+        border-bottom: none;
+        font-size: 0.88rem;
+    }
+
+    .comparatif-table td:first-child {
+        font-size: 0.95rem;
+        color: var(--orange);
+        margin-bottom: 8px;
+        min-width: auto;
+    }
+
+    .comparatif-table td.col-sans::before {
+        content: "Sans accompagnement : ";
+        font-weight: 600;
+        color: var(--dark);
+    }
+
+    .comparatif-table td:last-child::before {
+        content: "Avec Opara : ";
+        font-weight: 600;
+        color: var(--orange);
+    }
+
+    .comparatif-table td:first-child::before {
+        content: none;
+    }
+
+    .pack-card.featured .pack-tarif {
+        white-space: normal;
+        font-size: 0.9rem;
     }
 
     .footer-bottom {
@@ -1088,6 +1146,14 @@ a.footer-contact-item:hover {
 
     .pack-card {
         padding: 28px 24px;
+    }
+
+    .simulation-card {
+        padding: 28px 20px;
+    }
+
+    .simulation-row {
+        font-size: 0.85rem;
     }
 }
 
