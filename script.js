@@ -40,14 +40,14 @@ const EMBEDDED_DATA = {
     {"projet": "Projet à 100 000 € de travaux", "honoraires": "8 000 € HT", "economies": "15 000 à 20 000 €", "detail": "Surcoût évité de 15 à 20 %"}
   ],
   "realisations": [
-    {"titre": "Rénovation complète appartement", "lieu": "Ajaccio centre", "type": "Rénovation intérieure — Séjour & aménagement", "image": "assets/Projet-1.jpg", "client": "M. & Mme Ferrandi"},
+    {"titre": "Rénovation complète appartement", "lieu": "Ajaccio — Centre-ville", "type": "Rénovation intérieure — Séjour & aménagement", "image": "assets/Projet-1.jpg", "client": "M. & Mme Ferrandi"},
     {"titre": "Réaménagement cuisine & pièce de vie", "lieu": "Ajaccio — Les Jardins de l'Empereur", "type": "Rénovation cuisine — Agencement sur mesure", "image": "assets/Projet-2.jpg", "client": "M. Luciani"},
     {"titre": "Réhabilitation appartement ancien", "lieu": "Ajaccio — Vieille ville", "type": "Rénovation structurelle — Verrière & voûtes", "image": "assets/Projet-3.jpg", "client": "Mme Santoni"}
   ],
   "temoignages": [
-    {"texte": "Grâce à Opara, les devis étaient enfin comparables. On a pu choisir nos artisans en toute confiance, et les économies réalisées ont largement couvert leurs honoraires.", "auteur": "J. Ferrandi — Rénovation appartement — Ajaccio"},
-    {"texte": "On ne connaissait rien aux travaux. Le diagnostic nous a permis de comprendre où mettre notre argent en priorité. Un accompagnement indispensable.", "auteur": "P. Luciani — Réaménagement cuisine — Ajaccio"},
-    {"texte": "Le suivi de chantier nous a évité plusieurs malfaçons. Sans leur œil technique, on aurait signé la réception sans voir les problèmes.", "auteur": "A. Santoni — Réhabilitation appartement — Ajaccio"}
+    {"texte": "Grâce à Opara, les devis étaient enfin comparables. On a pu choisir nos artisans en toute confiance, et les économies réalisées ont largement couvert leurs honoraires.", "auteur": "J. Ferrandi — Rénovation complète appartement — Ajaccio, Centre-ville"},
+    {"texte": "On ne connaissait rien aux travaux. Le diagnostic nous a permis de comprendre où mettre notre argent en priorité. Un accompagnement indispensable.", "auteur": "P. Luciani — Réaménagement cuisine & pièce de vie — Ajaccio, Les Jardins de l'Empereur"},
+    {"texte": "Le suivi de chantier nous a évité plusieurs malfaçons. Sans leur œil technique, on aurait signé la réception sans voir les problèmes.", "auteur": "A. Santoni — Réhabilitation appartement ancien — Ajaccio, Vieille ville"}
   ],
   "modalites": {
     "portee": "Opara agit en tant que coordinateur technique et conseiller. L'entreprise ne fournit pas de prestations réglementées de maîtrise d'œuvre au sens de la loi MOP et ne se substitue ni à un architecte ni à un bureau d'études. Les plans et documents techniques que nous produisons sont des outils d'aide à la décision et à la consultation. Les responsabilités juridiques liées à l'exécution des travaux restent du ressort des entreprises contractantes.",

@@ -137,7 +137,7 @@
   "realisations": [
     {
       "titre": "Rénovation complète appartement",
-      "lieu": "Ajaccio centre",
+      "lieu": "Ajaccio — Centre-ville",
       "type": "Rénovation intérieure — Séjour & aménagement",
       "image": "assets/Projet-1.jpg",
       "client": "M. & Mme Ferrandi"
@@ -160,15 +160,15 @@
   "temoignages": [
     {
       "texte": "Grâce à Opara, les devis étaient enfin comparables. On a pu choisir nos artisans en toute confiance, et les économies réalisées ont largement couvert leurs honoraires.",
-      "auteur": "J. Ferrandi — Rénovation appartement — Ajaccio"
+      "auteur": "J. Ferrandi — Rénovation complète appartement — Ajaccio, Centre-ville"
     },
     {
       "texte": "On ne connaissait rien aux travaux. Le diagnostic nous a permis de comprendre où mettre notre argent en priorité. Un accompagnement indispensable.",
-      "auteur": "P. Luciani — Réaménagement cuisine — Ajaccio"
+      "auteur": "P. Luciani — Réaménagement cuisine & pièce de vie — Ajaccio, Les Jardins de l'Empereur"
     },
     {
       "texte": "Le suivi de chantier nous a évité plusieurs malfaçons. Sans leur œil technique, on aurait signé la réception sans voir les problèmes.",
-      "auteur": "A. Santoni — Réhabilitation appartement — Ajaccio"
+      "auteur": "A. Santoni — Réhabilitation appartement ancien — Ajaccio, Vieille ville"
     }
   ],
   "modalites": {
