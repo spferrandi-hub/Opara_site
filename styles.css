@@ -334,6 +334,26 @@ img {
     font-size: 1.02rem;
 }
 
+/* ===== VIDEO ===== */
+.section-video {
+    background: var(--gray-light);
+}
+
+.video-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.video-wrapper video {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: var(--dark);
+}
+
 /* ===== MISSION ===== */
 .mission-content {
     max-width: 780px;
