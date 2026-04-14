@@ -65,9 +65,6 @@ async function loadData() {
         // Fallback: use embedded data (works with file:// protocol)
         data = EMBEDDED_DATA;
     }
-    renderMission(data.presentation.mission);
-    renderPourquoi(data.presentation);
-    renderPacks(data.packs);
     renderSimulations(data.simulations);
     renderRealisations(data.realisations);
     renderTemoignages(data.temoignages);
@@ -75,61 +72,6 @@ async function loadData() {
 }
 
 // ===== RENDER FUNCTIONS =====
-function renderMission(mission) {
-    document.getElementById('mission-intro').textContent = mission.intro;
-    document.getElementById('mission-role').textContent = mission.role;
-    document.getElementById('mission-positionnement').textContent = mission.positionnement;
-    document.getElementById('mission-deontologie').textContent = mission.deontologie;
-}
-
-function renderPourquoi(presentation) {
-    document.getElementById('pourquoi-intro').textContent = presentation.pourquoi.intro;
-    document.getElementById('pourquoi-solution').textContent = presentation.pourquoi.solution;
-
-    const tbody = document.getElementById('comparatif-body');
-    tbody.innerHTML = presentation.comparatif.map(row => `
-        <tr>
-            <td>${row.critere}</td>
-            <td class="col-sans">${row.sans}</td>
-            <td>${row.avec}</td>
-        </tr>
-    `).join('');
-}
-
-function renderPacks(packs) {
-    const grid = document.getElementById('packs-grid');
-    grid.innerHTML = packs.map(pack => {
-        const featuredClass = pack.featured ? ' featured' : '';
-        const livrables = pack.livrables.map(l => `
-            <div class="pack-livrable">${l}</div>
-        `).join('');
-
-        let notes = '';
-        if (pack.prerequis) {
-            notes += `<div class="pack-prerequis">${pack.prerequis}</div>`;
-        }
-        if (pack.note) {
-            notes += `<div class="pack-note">${pack.note}</div>`;
-        }
-
-        return `
-            <div class="pack-card${featuredClass} fade-in">
-                <div class="pack-nom">${pack.nom}</div>
-                <div class="pack-titre">${pack.titre}</div>
-                <div class="pack-objectif">${pack.objectif}</div>
-                <div class="pack-contenu">${pack.contenu}</div>
-                <div class="pack-livrables-title">Livrables</div>
-                <div class="pack-livrables">${livrables}</div>
-                <div class="pack-tarif">${pack.tarif}</div>
-                ${notes}
-            </div>
-        `;
-    }).join('');
-
-    // Re-observe new fade-in elements
-    observeNewElements();
-}
-
 function renderSimulations(simulations) {
     const grid = document.getElementById('simulations-grid');
     grid.innerHTML = simulations.map(sim => `
